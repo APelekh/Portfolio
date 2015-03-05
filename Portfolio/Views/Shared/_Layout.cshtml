@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="~/Content/stylesheet.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/behaviours.js"></script>
+
+</head>
+<body class="home">
+    <header>
+        <div class="center">
+            <h1> <span class="dark2">Andrii </span>Pelekh</h1>
+            <div class="me">
+                <img class="me" src="~/Content/img/me.jpg">
+            </div>
+            <div class="position">Entry level back-end developer</div>
+        </div>
+    </header>
+    <div class="border top-border"></div>
+    
+    <div class="main">
+        @RenderBody()
+    </div>
+
+    <div class="border bottom-border"></div>
+    <footer>
+        <div class="center">
+
+        </div>
+    </footer>
+    <div id="contact-button">
+        <h2 id="contact-info-title">contact <span class="dark2">information</span></h2>
+        <div id="contact-area">
+            <dl>
+                <dt>Git Hub</a></dt>
+                <dd><a href="http://www.github.com/APelekh">github.com/APelekh</a></dd>
+                <dt>Phone</dt>
+                <dd>(203) 705 8768</dd>
+            </dl>
+            <dl>
+                <dt>Email</dt>
+                <dd>andrii.pelekh@gmail.com</dd>
+            </dl>
+        </div>
+    </div>
+</body>
+</html>

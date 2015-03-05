@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Andrii Pelekh | Work";
+}
+
+<div class="body work">
+    <div class="center">
+        <div class="left">
+
+            <div class="half">
+                <h2>work <span class="dark2">samples</span></h2>
+            </div>
+            <div class="half">
+                <div class="padder empty">
+
+                </div>
+            </div>
+            <div class="half">
+                <img class="cheese" src="~/Content/img/cheesefinder.gif">
+            </div>
+            <div class="half">
+                <p class="cheese">Cheese Finder</p>
+            </div>
+            <div class="half">
+                <img class="ternopil" src="~/Content/img/ternopil.png">
+            </div>
+            <div class="half">
+                <p>Combat Simulator</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="right">
+    <div class="grey">
+        <h2>site <span class="dark2">navigation</span></h2>
+        <ul>
+            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("Index", "About")">About</a></li>
+            <li><a href="@Url.Action("Index", "Work")" class="selected">Work</a></li>
+            <li id="contact-menu"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>

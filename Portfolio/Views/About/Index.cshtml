@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Andrii Pelekh | About Me";
+}
+
+<div class="body about">
+    <div class="center">
+        <div class="left">
+
+            <div class="half">
+                <h2>about <span class="dark2">me</span></h2>
+            </div>
+            <div class="half">
+                <div class="padder empty">
+
+                </div>
+            </div>
+            <div class="half">
+                <img class="ternopil" src="~/Content/img/ternopil.png">
+            </div>
+            <div class="half">
+                <p>Originally, I am from Ukraine and I have spent most of my life in beautiful town where I was born called Ternopil.</p>
+            </div>
+            <div class="half">
+                <p>I am a very curious person. I had only one word in my vocabulary when I was a child : why. Most of the time, my never ending questions to my parents or family members ended up with phrase: Because I said so.</p>
+            </div>
+            <div class="half">
+                <img class="factory" src="~/Content/img/factory.jpg">
+            </div>
+            <div class="half">
+                <img class="ships" src="~/Content/img/ships.jpg">
+            </div>
+            <div class="half clear">
+                <p>I visited many different places while I was working on cruise ships. Without any doubt, I will never forget the hurricane Sandy and those two days at see when we were passing by it.</p>
+            </div>
+
+            <div class="half">
+                <p>My previous work experience is in the finance field where I acquired strong problem solving skills, high attention to details and the ability to take responsibility and achieve results.</p>
+            </div>
+            <div class="half">
+                <img class="finance" src="~/Content/img/finance.jpg">
+            </div>
+            <div class="half">
+                <img class="code" src="~/Content/img/code.jpg">
+            </div>
+            <div class="half clear">
+                <p>I am very passionate about programming and I am very glad that I decided to build up my career in this field. I know that no matter what will happen with me in the future, it was one of the best choices in my life.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="right">
+    <div class="grey">
+        <h2>site <span class="dark2">navigation</span></h2>
+        <ul>
+            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("Index", "About")" class="selected">About</a></li>
+            <li><a href="@Url.Action("Index", "Work")">Work</a></li>
+            <li id="contact-menu"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div> 
+

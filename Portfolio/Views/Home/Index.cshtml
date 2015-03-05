@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Andrii Pelekh";
+}
+
+<div class="body index">
+    <div class="center">
+        <div class="left">
+            <a href="@Url.Action("Index", "About" )" class="item">
+                <div class="half">
+                    <h2>about <span class="dark2">me</span></h2>
+                </div>
+                <div class="half">
+                    <div class="padder">
+                        <p>originally, I am from Ukraine and I have spent most of my life in beautiful town where I was born called Ternopil.......</p>
+                    </div>
+                </div>
+            </a> <a href="@Url.Action("Index", "Work")" class="item">
+                <div class="half">
+                    <h2>work <span class="dark2">samples</span></h2>
+                </div>
+                <div class="half">
+                    <div class="padder">
+                        <p>Projects that I have completed during SeedPaths......</p>
+                    </div>
+                </div>
+            </a> <a href="~/Content/myresume.pdf" class="item" download="Andrii_Pelekh_resume">
+                <div class="half">
+                    <h2>my <span class="dark2">resume</span></h2>
+                </div>
+                <div class="half">
+                    <div class="padder">
+                        <p>For downloading my resume please click here.......</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="right">
+    <div class="grey">
+        <h2>site <span class="dark2">navigation</span></h2>
+        <ul>
+            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("Index", "About")">About</a></li>
+            <li><a href="@Url.Action("Index", "Work")">Work</a></li>
+            <li id="contact-menu"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div> 
