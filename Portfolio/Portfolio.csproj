@@ -183,6 +183,7 @@
     <Content Include="Content\img\bg_woodgrain.png" />
     <Content Include="Content\img\cheesefinder.gif" />
     <Content Include="Content\img\code.jpg" />
+    <Content Include="Content\img\combatsimulator.gif" />
     <Content Include="Content\img\contactarrow.png" />
     <Content Include="Content\img\contactarrowblack.png" />
     <Content Include="Content\img\factory.jpg" />
