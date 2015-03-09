@@ -429,6 +429,10 @@ div.work p{
 	padding-top:70px;
 	height:120px;
 }
+div.contactme p{
+    font-family: 'Palatino Linotype';
+    font-size: 2em;
+}
 
 div.clear{
 	height:300px;
@@ -464,6 +468,7 @@ button{
     margin-top:30px;
 }
 label{
+    font-family:'Palatino Linotype';
     font-size:2em;
     margin:20px;
     display:block;
@@ -496,5 +501,20 @@ div.workright{
     float:left;
 }
 
+iframe{
+    margin-top:15px;
+
+}
+div.work div.download p{
+    margin:10px 0 0 40%;
+    padding:0;
+    color:rgb(37,85,208);
+    text-decoration:underline;
+}
+div.download{
+    width:90%;
+    float:left;
+    height:40px;
+}
 
 
