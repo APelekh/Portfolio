@@ -15,17 +15,35 @@
 
                 </div>
             </div>
-            <div class="half pictures">
-                <img class="cheese" src="~/Content/img/cheesefinder.gif">
+            <div class="workleft">
+                <a href="~/Content/cipher.exe" download="cipher_APelekh">
+                    <img class="cipher" src="~/Content/img/cipher.gif">
+                </a>
             </div>
-            <div class="half pictures">
-                <p class="cheese">Cheese Finder</p>
+            <div class="workright">
+                <a href="~/Content/cipher.exe" download="cipher_APelekh">
+                    <p class="cheese">RailFence Cipher</p>
+                </a>
             </div>
-            <div class="half">
-                <img class="ternopil" src="~/Content/img/combatsimulator.gif">
+            <div class="workleft">
+                <a href="~/Content/cheese.exe" download="cheese_APelekh">
+                    <img class="cheese" src="~/Content/img/cheesefinder.gif">
+                </a>
             </div>
-            <div class="half">
-                <p>Combat Simulator</p>
+            <div class="workright">
+                <a href="~/Content/cheese.exe" download="cheese_APelekh">
+                    <p class="cheese">Cheese Finder</p>
+                </a>
+            </div>
+            <div class="workleft">
+                <a href="~/Content/combat.exe" download="combat_APelekh">
+                    <img class="combat" src="~/Content/img/combatsimulator.gif">
+                </a>
+            </div>
+            <div class="workright">
+                <a href="~/Content/combat.exe" download="combat_APelekh">
+                    <p>Combat Simulator</p>
+                </a>
             </div>
         </div>
     </div>
@@ -37,7 +55,7 @@
             <li><a href="@Url.Action("Index", "Home")">Home</a></li>
             <li><a href="@Url.Action("Index", "About")">About</a></li>
             <li><a href="@Url.Action("Index", "Work")" class="selected">Work</a></li>
-            <li id="contact-menu"><a href="#">Contact</a></li>
+            <li><a href="@Url.Action("ContactMe", "Home")">Contact Me</a></li>
         </ul>
     </div>
 </div>

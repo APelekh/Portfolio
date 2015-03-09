@@ -1,0 +1,52 @@
+﻿@model Portfolio.Models.ContactForm
+@{
+    ViewBag.Title = "Andrii Pelekh | ContactMe";
+}
+
+
+
+<div class="body contactme">
+    <div class="center">
+        <div class="left">
+
+            <div class="half">
+                <h2>contact <span class="dark2">me</span></h2>
+            </div>
+            <div class="half">
+                <div class="padder empty">
+
+                </div>
+            </div>
+            <form method="post" action="@Url.Action("ContactMe", "Home")">
+
+                <div class="half">
+                    <label for="Name">Name:</label>
+                    <input type="text" id="Name" name="Name" required />
+                </div>
+                <div class="half">
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="EmailAddress" required />
+                </div>
+                <div class="half">
+                    <label for="Body">Message:</label>
+                    <textarea rows="8" cols="25" id="Body" name="TextMessage" required></textarea>
+                </div>
+                <div class="half">
+                    <button type="submit" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="right">
+    <div class="grey">
+        <h2>site <span class="dark2">navigation</span></h2>
+        <ul>
+            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("Index", "About")">About</a></li>
+            <li><a href="@Url.Action("Index", "Work")">Work</a></li>
+            <li><a href="@Url.Action("ContactMe", "Home")" class="selected">Contact Me</a></li>
+        </ul>
+    </div>
+</div> 

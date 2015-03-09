@@ -50,7 +50,6 @@ header .position{
 	font-size:15pt;
 	font-style:italic;
 }
-
 span.dark
 {
 	color: #999;
@@ -107,8 +106,6 @@ div.half
 	width: 49%;
 	float: left;
 }
-
-
 body.home div.body div.left,
 body.work div.body div.left
 {
@@ -152,7 +149,9 @@ body.work  div.body h2
 }
 div.body h2
 {
-	font-size: 400%;
+	font-family:'Palatino Linotype';
+    height:55px;
+    font-size: 340%;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -161,8 +160,8 @@ div.body h2
 p
 {
 	line-height: 180%;	
-	font-size: 90%;
-	font-family: helvetica, arial, verdana;
+	font-size: 100%;
+	font-family: 'Palatino Linotype';
 }
 body.home p
 {
@@ -319,7 +318,6 @@ dd
 	padding-right: 1em;
 	overflow: hidden;
 }
-
 body.home div.body .item:hover p:first-letter,
 body.home div.body .item:hover p:first-line
 {
@@ -341,7 +339,7 @@ img.ternopil{
 	border-radius: 5px;
 	padding:5px;
 	background: rgba(147,139,130, .7);
-	margin:15px 10px;
+	margin:20px 10px;
 }
 img.factory{
 	width:370px;
@@ -363,7 +361,6 @@ img.finance{
 	margin:15px 10px;
 	
 }
-
 img.ships{
 	width:370px;
 	height:auto;
@@ -372,7 +369,6 @@ img.ships{
 	padding:5px;
 	background: rgba(147,139,130, .7);
 	margin:15px 10px;
-	
 }
 img.code{
 	width:370px;
@@ -385,7 +381,6 @@ img.code{
 	
 }
 img.cheese{
-	width:370px;
 	height:auto;
 	float:left;
 	border-radius: 5px;
@@ -393,14 +388,29 @@ img.cheese{
 	background: rgba(147,139,130, .7);
 	margin:20px 10px;
 }
-
+img.combat{
+    width:500px;
+    height:auto;
+    border-radius: 5px;
+	padding:5px;
+	background: rgba(147,139,130, .7);
+	margin:15px 10px;
+}
+img.cipher{
+    width:500px;
+    height:auto;
+    border-radius: 5px;
+	padding:5px;
+	background: rgba(147,139,130, .7);
+	margin:25px 10px;
+}
 div.empty{
 	height:55px;
 }
 div.about p:first-line,
 div.about p{
 	
-	font-family: georgia;
+	font-family: 'Palatino Linotype';
 	color: #aaa;
 	font-size: 1.5em;
 	float:left;
@@ -411,17 +421,15 @@ div.about p{
 		
 }
 div.work p{
-	font-family: georgia;
+	font-family: 'Palatino Linotype';
 	color: #aaa;
-	font-size: 2.5em;
+	font-size: 2em;
 	float:left;
 	padding:30px 10px;
-	padding-top:50px;
+	padding-top:70px;
 	height:120px;
 }
-div.work p.cheese{
-	color:yellow;
-}
+
 div.clear{
 	height:300px;
 }
@@ -438,11 +446,55 @@ img.me{
     top:15px;
     width:300px;
     height:auto;
-
-
 }
 img.me{
     border-radius: 7px;
 	padding:5px;
 	background: #000;
 }
+
+div.contactme input{
+    font-size:1.2em;
+    margin:20px;
+    margin-top:25px;
+}
+
+button{
+    padding:5px 10px;
+    margin-top:30px;
+}
+label{
+    font-size:2em;
+    margin:20px;
+    display:block;
+    float:left;
+}
+textarea{
+    margin-top:10px;
+}
+
+div.thankyou div.left div.thankyou h2{
+    height:200px;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+
+div.workleft{
+    width:69%;
+    float:left;
+}
+
+div.workright{
+    width:29%;
+    float:left;
+}
+
+
+
