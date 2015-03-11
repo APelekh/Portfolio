@@ -405,7 +405,7 @@ img.cipher{
 	margin:25px 10px;
 }
 div.empty{
-	height:55px;
+	height:75px;
 }
 div.about p:first-line,
 div.about p{
@@ -455,12 +455,16 @@ img.me{
     border-radius: 7px;
 	padding:5px;
 	background: #000;
+    margin-left:15px;
 }
 
 div.contactme input{
     font-size:1.2em;
-    margin:20px;
+    margin:28px;
     margin-top:25px;
+}
+div.contactme input.special{
+    margin-left:30px;
 }
 
 button{
