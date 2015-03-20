@@ -8,11 +8,11 @@ $(document).ready(function()
 	fixright();
 	$(window).resize(fixright);
 	
-	$('#contact-info-title').click(function()
+	$('#contact-info-title').mouseenter(function()
 	{
-		$('#contact-area').slideToggle();
+	    $('#contact-area').slideToggle();
 	});
-	$('#contact-menu').click(function()
+	$('#contact-menu').mouseenter(function()
 	{
 		$('#contact-area').slideToggle();
 	});
